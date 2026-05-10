@@ -46,7 +46,10 @@ export default function Sidebar() {
         Econexus
       </h1>
 
-      <div className="bg-zinc-800 rounded-2xl p-4 mb-8 border border-zinc-700">
+      <Link
+        href="/profile"
+        className="bg-zinc-800 rounded-2xl p-4 mb-8 border border-zinc-700 hover:border-emerald-500 transition block"
+      >
 
         <div className="flex items-center gap-3">
 
@@ -59,7 +62,6 @@ export default function Sidebar() {
             <div className="w-3 h-3 rounded-full bg-emerald-400 absolute bottom-0 right-0 border-2 border-zinc-800"></div>
 
           </div>
-
           <div>
 
             <h2 className="font-semibold">
@@ -74,7 +76,7 @@ export default function Sidebar() {
 
         </div>
 
-      </div>
+      </Link>
 
       <div className="space-y-3">
 
