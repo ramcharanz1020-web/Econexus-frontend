@@ -42,9 +42,39 @@ export default function Sidebar() {
   return (
     <div className="w-64 bg-zinc-900 border-r border-zinc-800 p-6 flex flex-col sticky top-0 h-screen">
 
-      <h1 className="text-2xl font-bold text-emerald-400 mb-10">
+      <h1 className="text-2xl font-bold text-emerald-400 mb-8">
         Econexus
       </h1>
+
+      <div className="bg-zinc-800 rounded-2xl p-4 mb-8 border border-zinc-700">
+
+        <div className="flex items-center gap-3">
+
+          <div className="relative">
+
+            <div className="w-14 h-14 rounded-full bg-emerald-500 flex items-center justify-center text-black font-bold text-lg">
+              C
+            </div>
+
+            <div className="w-3 h-3 rounded-full bg-emerald-400 absolute bottom-0 right-0 border-2 border-zinc-800"></div>
+
+          </div>
+
+          <div>
+
+            <h2 className="font-semibold">
+              Charan
+            </h2>
+
+            <p className="text-zinc-400 text-sm"> 
+              ID: 12345
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
 
       <div className="space-y-3">
 
@@ -61,6 +91,7 @@ export default function Sidebar() {
         ))}
 
       </div>
+
     </div>
   )
 }
